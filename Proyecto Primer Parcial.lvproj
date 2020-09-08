@@ -16,6 +16,7 @@
 			<Item Name="Mensajes.lvlib" Type="Library" URL="../Libraries/Mensajes/Mensajes.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 			<Item Name="Monedas.lvlib" Type="Library" URL="../Libraries/Monedas/Monedas.lvlib"/>
+			<Item Name="Config.lvlib" Type="Library" URL="../Libraries/Config/Config.lvlib"/>
 		</Item>
 		<Item Name="Tester" Type="Folder">
 			<Item Name="Test Mensajes API.vi" Type="VI" URL="../Libraries/Mensajes/Test Mensajes API.vi"/>
@@ -23,6 +24,7 @@
 			<Item Name="Test Monedas API.vi" Type="VI" URL="../Libraries/Monedas/Test Monedas API.vi"/>
 			<Item Name="Test Productos API.vi" Type="VI" URL="../Libraries/Productos/Test Productos API.vi"/>
 		</Item>
+		<Item Name="Test Config API.vi" Type="VI" URL="../Libraries/Config/Test Config API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>

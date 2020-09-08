@@ -22,9 +22,9 @@
 			<Item Name="Test Mensajes API.vi" Type="VI" URL="../Libraries/Mensajes/Test Mensajes API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 			<Item Name="Test Monedas API.vi" Type="VI" URL="../Libraries/Monedas/Test Monedas API.vi"/>
+			<Item Name="Test Config API.vi" Type="VI" URL="../Libraries/Config/Test Config API.vi"/>
 			<Item Name="Test Productos API.vi" Type="VI" URL="../Libraries/Productos/Test Productos API.vi"/>
 		</Item>
-		<Item Name="Test Config API.vi" Type="VI" URL="../Libraries/Config/Test Config API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>

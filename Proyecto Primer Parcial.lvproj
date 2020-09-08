@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,14 +12,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Productos.lvlib" Type="Library" URL="../Libraries/Productos/Productos.lvlib"/>
 			<Item Name="Mensajes.lvlib" Type="Library" URL="../Libraries/Mensajes/Mensajes.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Tester" Type="Folder">
 			<Item Name="Test Mensajes API.vi" Type="VI" URL="../Libraries/Mensajes/Test Mensajes API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
+			<Item Name="Test Productos API.vi" Type="VI" URL="../Libraries/Productos/Test Productos API.vi"/>
 		</Item>
-		<Item Name="Test Mensajes API.vi" Type="VI" URL="../Libraries/Mensajes/Test Mensajes API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>

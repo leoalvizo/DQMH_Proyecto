@@ -82,4 +82,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Write productos.vi" Type="VI" URL="../Write productos.vi"/>
 </Library>

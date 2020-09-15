@@ -87,4 +87,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Read Products.vi" Type="VI" URL="../Read Products.vi"/>
+	<Item Name="restar inventario.vi" Type="VI" URL="../restar inventario.vi"/>
+	<Item Name="actualiza botones.vi" Type="VI" URL="../actualiza botones.vi"/>
 </Library>
